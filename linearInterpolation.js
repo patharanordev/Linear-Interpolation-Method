@@ -16,6 +16,11 @@ var linearInterpolation = function() {
 				if(Math.abs(fn_x0) < Math.abs(fn_x1)) {
 					objResult.result += ' - Found |f(x0)| < |f(x1)|, swaped x0 with x1';
 					console.log(' - Found |f(x0)| < |f(x1)|, swaped x0 with x1');
+
+					var tmp = x0;
+					x0 = x1;
+					x1 = tmp;
+					tmp = null;
 				}
 
 				console.log('|Iteration|  x0  |  x1  |  x2  | f(x0) | f(x1) | f(x2) |');
