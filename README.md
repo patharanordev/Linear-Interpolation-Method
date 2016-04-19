@@ -1,6 +1,6 @@
 # Linear-Interpolation-Method
 
-Now support 2 methods below:
+Now support 3 methods below:
 
 1. Secant method
 2. Regular Falsi (false position) method
