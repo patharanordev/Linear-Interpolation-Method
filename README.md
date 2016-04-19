@@ -19,7 +19,7 @@ var f = function(x){
 	// Example
 	//return 3*x + Math.sin(x) - Math.exp(x);
 	
-	// Exercises : Section 1.3 | 13
+	// Exercises : Section 1.3 | 13 (Used for Newton's method)
 	return ((4*Math.pow(x, 3)) - 1 - Math.exp(parseFloat(Math.pow(x,2))/2));
 };
 
