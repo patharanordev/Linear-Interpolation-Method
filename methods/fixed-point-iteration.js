@@ -57,7 +57,7 @@ var fixedPointIteration = function(){
 			return objResult;
 		},
 		checkResult:function(g_diff, x){
-			var result = { isSuccess:false, result:'' };
+			var result = { isSuccess:false, result:'true' };
 			if (typeof g_diff === "function") {
 				if(g_diff(x)<1) {
 					objResult.isSuccess = true;
