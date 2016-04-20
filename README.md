@@ -1,11 +1,12 @@
 # Linear-Interpolation-Method
 
-Now support 4 methods below:
+Now support 5 methods below:
 
 1. Secant method
 2. Regular Falsi (false position) method
 3. Newton's method
 4. Mueller's method
+5. Fixed-Point Iteration method
 
 ## Usage
 
@@ -29,10 +30,16 @@ var f = function(x){
 	return 3*x + Math.sin(x) - Math.exp(x);
 };
 
+var g = function(x){
+	// Fixed-Point Iteration method
+	return Math.sqrt(2*parseFloat(x)+3);
+};
+
 //var result = li.secant(f, 1, 0, 0.0000001);
 //var result = li.regulaFalsi(f, 0, 1, null);
 //var result = li.newton(f, -1, null, null);
-var result = li.mueller(f, 0, 0.5, 1);
+//var result = li.mueller(f, 0.8, 0.9, 1);
+var result = li.fixedPointIteration(g, 4, null);
 console.log(result);
 ```
 
