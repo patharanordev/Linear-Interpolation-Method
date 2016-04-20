@@ -22,10 +22,10 @@ var f = function(x){
 	// Regula Falsi
 	//return Math.pow(x, 3) + (2*Math.pow(x, 2)) - x +5;
 
-	// Newton's method
+	// Newton's method : Exercises -> Section1.3 -> 13
 	//return ((4*Math.pow(x, 3)) - 1 - Math.exp(parseFloat(Math.pow(x,2))/2));
 
-	// Mueller's method
+	// Mueller's method : 
 	return 3*x + Math.sin(x) - Math.exp(x);
 };
 
