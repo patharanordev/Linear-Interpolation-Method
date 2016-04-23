@@ -12,7 +12,7 @@ Now support 5 methods below:
 
 Run javascript file with NodeJS `node app`
 
-```
+```javascript
 /* Example app.js */ 
 var li = require('./linearInterpolation.js');
 
