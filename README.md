@@ -13,7 +13,7 @@ Install math.js via `npm` :
 npm install mathjs
 ```
 
-Run javascript file with NodeJS `node app`
+Run javascript file with NodeJS `node cal`
 
 ```javascript
 /* Example cal.js */ 
