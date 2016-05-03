@@ -3,41 +3,15 @@
 
 ## Require
 
-- [x] [math.js ( [matrix](http://mathjs.org/docs/datatypes/matrices.html), ... )](http://mathjs.org/)
-
-## Chapter
-### 1. Solving `Nonlinear` Equations
-   - [x] Secant method
-   - [x] Regular Falsi (false position) method
-   - [x] Newton's method
-   - [x] Mueller's method
-   - [x] Fixed-Point Iteration method
-
-### 2. Solving `Sets` of Equations
-   - [ ] Coming soon...
-
-### 3. Interpolation and Curve Fitting
-   - [ ] Coming soon...
-
-### 4. Approximation of Functions 
-   - [ ] Coming soon...
-
-### 5. Numerical Differentiation and Integration
-   - [ ] Coming soon...
-
-### 6. Numerical Solution of Ordinary Differential Equations
-   - [ ] Coming soon...
-
-### 7. Optimization
-   - [ ] Coming soon...
-
-### 8. Partial-Differential Equations
-   - [ ] Coming soon...
-
-### 9. Finite-Element Analysis
-   - [ ] Coming soon...
+- [x] [math.js ( for calculate [matrix](http://mathjs.org/docs/datatypes/matrices.html), ... )](http://mathjs.org/)
 
 ## Usage
+
+Install math.js via npm :
+
+```npm
+npm install mathjs
+```
 
 Run javascript file with NodeJS `node app`
 
@@ -73,6 +47,40 @@ console.log(result);
 // Testing Matrics using math.js
 console.log(ana.test());
 ```
+
+## Support chapter below
+
+### 1. Solving `Nonlinear` Equations
+   - [x] Secant method
+   - [x] Regular Falsi (false position) method
+   - [x] Newton's method
+   - [x] Mueller's method
+   - [x] Fixed-Point Iteration method
+
+### 2. Solving `Sets` of Equations
+   - [ ] Coming soon...
+
+### 3. Interpolation and Curve Fitting
+   - [ ] Coming soon...
+
+### 4. Approximation of Functions 
+   - [ ] Coming soon...
+
+### 5. Numerical Differentiation and Integration
+   - [ ] Coming soon...
+
+### 6. Numerical Solution of Ordinary Differential Equations
+   - [ ] Coming soon...
+
+### 7. Optimization
+   - [ ] Coming soon...
+
+### 8. Partial-Differential Equations
+   - [ ] Coming soon...
+
+### 9. Finite-Element Analysis
+   - [ ] Coming soon...
+
 
 ## Donation
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
