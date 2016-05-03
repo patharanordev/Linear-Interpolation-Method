@@ -1,15 +1,38 @@
 # Applied Numerical Analysis
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A8YE92K9QM7NA) ![Coverage](https://img.shields.io/badge/Coverage-10%-red.svg)
 
-Now support 5 methods below:
 
-Solving Nonlinear Equations
+## Chapter
+### 1. Solving `Nonlinear` Equations
+   - [x] Secant method
+   - [x] Regular Falsi (false position) method
+   - [x] Newton's method
+   - [x] Mueller's method
+   - [x] Fixed-Point Iteration method
 
-1. Secant method
-2. Regular Falsi (false position) method
-3. Newton's method
-4. Mueller's method
-5. Fixed-Point Iteration method
+### 2. Solving `Sets` of Equations
+   - [ ] Coming soon...
+
+### 3. Interpolation and Curve Fitting
+   - [ ] Coming soon...
+
+### 4. Approximation of Functions 
+   - [ ] Coming soon...
+
+### 5. Numerical Differentiation and Integration
+   - [ ] Coming soon...
+
+### 6. Numerical Solution of Ordinary Differential Equations
+   - [ ] Coming soon...
+
+### 7. Optimization
+   - [ ] Coming soon...
+
+### 8. Partial-Differential Equations
+   - [ ] Coming soon...
+
+### 9. Finite-Element Analysis
+   - [ ] Coming soon...
 
 ## Usage
 
