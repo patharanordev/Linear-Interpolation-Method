@@ -1,6 +1,9 @@
 # Applied Numerical Analysis
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A8YE92K9QM7NA) ![Coverage](https://img.shields.io/badge/Coverage-10%-red.svg)
 
+## Require
+
+- [x] [math.js ( [matrix](http://mathjs.org/docs/datatypes/matrices.html), ... )](http://mathjs.org/)
 
 ## Chapter
 ### 1. Solving `Nonlinear` Equations
@@ -39,34 +42,36 @@
 Run javascript file with NodeJS `node app`
 
 ```javascript
-/* Example app.js */ 
-var li = require('./linearInterpolation.js');
-
+/* Example cal.js */ 
+var ana = require('./ana.js');
 var f = function(x){
-	// Secant method
-	//return 3*x + Math.sin(x) - Math.exp(x);
-	
-	// Regula Falsi
-	//return Math.pow(x, 3) + (2*Math.pow(x, 2)) - x +5;
+    // Secant method
+    //return 3*x + Math.sin(x) - Math.exp(x);
 
-	// Newton's method : Exercises -> Section1.3 -> 13
-	//return ((4*Math.pow(x, 3)) - 1 - Math.exp(parseFloat(Math.pow(x,2))/2));
+    // Regula Falsi
+    //return Math.pow(x, 3) + (2*Math.pow(x, 2)) - x +5;
 
-	// Mueller's method : 
-	return 3*x + Math.sin(x) - Math.exp(x);
+    // Newton's method : Exercises -> Section1.3 -> 13
+    //return ((4*Math.pow(x, 3)) - 1 - Math.exp(parseFloat(Math.pow(x,2))/2));
+
+    // Mueller's method : 
+    return 3*x + Math.sin(x) - Math.exp(x);
 };
 
 var g = function(x){
-	// Fixed-Point Iteration method
-	return Math.sqrt(2*parseFloat(x)+3);
+    // Fixed-Point Iteration method
+    return Math.sqrt(2*parseFloat(x)+3);
 };
 
-//var result = li.secant(f, 1, 0, 0.0000001);
-//var result = li.regulaFalsi(f, 0, 1, null);
-//var result = li.newton(f, -1, null, null);
-//var result = li.mueller(f, 0.8, 0.9, 1);
-var result = li.fixedPointIteration(g, 4, null);
+//var result = ana.secant(f, 1, 0, 0.0000001);
+//var result = ana.regulaFalsi(f, 0, 1, null);
+//var result = ana.newton(f, -1, null, null);
+//var result = ana.mueller(f, 0.8, 0.9, 1);
+var result = ana.fixedPointIteration(g, 4, null);
 console.log(result);
+
+// Testing Matrics using math.js
+console.log(ana.test());
 ```
 
 ## Donation
